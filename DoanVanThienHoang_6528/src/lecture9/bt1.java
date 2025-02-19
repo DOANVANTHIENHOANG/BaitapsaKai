@@ -1,7 +1,6 @@
 
-package bt1;
-
-import java.util.ArrayList;
+package lecture9;
+    import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentList {
