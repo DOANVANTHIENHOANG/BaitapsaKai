@@ -37,6 +37,13 @@ public abstract class Book implements IBook{
    public String getBookId(){
        return bookId;
    }
+   public double getQuantity(){
+   return this.quantity;
+   }
+   public double getUnitPrice(){
+       return this.unitPrice;
+   }
+   public abstract double calculateTotal();
     @Override
     public void updateBook(String id){
         if(!this.bookId.equals(id)){

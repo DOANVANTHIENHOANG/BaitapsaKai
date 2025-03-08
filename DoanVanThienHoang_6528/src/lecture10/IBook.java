@@ -1,7 +1,7 @@
 
 package lecture10;
 public interface IBook {
-    void addBook();
-    void updateBook(String id);
-    void displayBook();
+  abstract   void addBook();
+    abstract void updateBook(String id);
+    abstract void displayBook();
 }
